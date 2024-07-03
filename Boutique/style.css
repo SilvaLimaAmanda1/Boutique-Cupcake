@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+/* Reset and basic styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hotpink;/**/
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: dodgerblue;
+    padding: 1rem 2rem;
+    box-shadow: 5px 6px 5px deeppink;
+}
+
+.logo {
+    width: 150px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-links a:hover{
+	transform: scale(1.1);
+	color: deeppink;
+}
+
+.search-cart {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search-cart a{
+	font-size: 28px;
+	color: deeppink;
+}
+
+.search-cart a:hover{
+	transform: scale(1.1);
+	color: white;
+}
+
+.search-cart input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem;
+    background-color: deeppink;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    color: #333;
+}
+
+.hero-text h2 {
+    font-size: 2rem;
+    color: white;
+    filter: drop-shadow(4px 4px 3px deepskyblue);
+}
+
+.hero-text button {
+    padding: 1rem 2rem;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-text button:hover{
+	transform: scale(1.1);
+	background-color: deepskyblue;
+}
+
+.featured-cupcake {
+    width: 30%;
+}
+
+.about-us {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.about-us .text-box,
+.about-us .history,
+.about-us .mission,
+.about-us .product,
+.about-us .quality,
+.about-us .events {
+    margin-bottom: 2rem;
+}
+
+.about-us .title-us {
+    font-size: 2rem;
+    color: #333;
+}
+
+.about-us .desc-us {
+    font-size: 1rem;
+    color: #666;
+}
+
+.blog {
+    padding: 2rem;
+    background-color: hotpink;
+}
+
+.blog .title {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+}
+
+.blog .card {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.blog .card .title {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.blog .card .img-bunner {
+    width: 40%;
+    height: auto;
+}
+
+.blog .card .sub-title {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.blog .card .sub {
+    font-size: 1rem;
+    color: #333;
+}
+
+.blog .card .desc {
+    font-size: 1rem;
+    color: #666;
+}
+
+.gallery {
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.gallery .title {
+    font-size: 2rem;
+    color: #333;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.gallery-images img {
+    width: calc(25% - 1rem);
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilizando barras de rolagem */
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: dodgerblue;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: hotpink;
+    border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: deeppink;
+}
+
+@media (max-width: 768px) {
+    .gallery-images img {
+        width: calc(50% - 1rem);
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-images img {
+        width: 100%;
+    }
+}
+

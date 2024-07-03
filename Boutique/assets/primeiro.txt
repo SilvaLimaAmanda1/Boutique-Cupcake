@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--Remix icon-->
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+	<!--Box icon-->
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<title>Boutique Cupcake | Amanda Silva | AS</title>
+</head>
+<body>
+	<header>
+		<a href="#" class="logo"><img src="assets/LogoB.png"></a>
+		<ul class="menulist">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#sobre">Sobre</a></li>
+			<li><a href="#blog">Blog</a></li>
+			<li><a href="#galeria">Galeria</a></li>
+		</ul>
+		<div class="menu-right">
+			<a href="#" class="btn-shop">
+				<i class="ri-shopping-bag-4-fill"></i>
+			</a>
+			<a href="#" class="btn-search">
+				<i class="ri-search-line"></i>
+			</a>
+			<a href="#" class="btn-menu">
+			<i class="ri-menu-line"></i>
+			</a>
+		</div>
+	</header>
+	<div class="content">
+		<div class="left"><!-- Conteúdo do lado esquerdo -->
+			<h3>A melhor Boutique</h3>
+			<h1>Cupcake</h1>
+			<a href="#" class="ctaa">Compre agora!</a>
+		</div>
+		<div class="right">
+			<img src="assets/cup-.png" alt="Cupcake" class="cupcake-img">
+		</div>
+	</div><!-- Conteúdo do lado esquerdo final -->
+	<section class="sobre" id="sobre"><!-- Conteúdo sobre -->
+		<div class="text-box">
+			<h3>Boutique Cupcake</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Consequuntur cupiditate praesentium quia voluptatum ullam dolores nihil aspernatur quis assumenda necessitatibus. Error quibusdam, quo nemo saepe laborum eos sapiente ut! Odio?</p>
+		</div>
+	</section><!-- Conteúdo sobre final -->
+	<section class="blog" id="blog">
+		<div class="card">
+			<h1 class="title">Cardápio especial de Nata</h1>
+			<img src="img/Natal.png" alt="" class="img-bunner">
+			<h3 class="sub-title">1. NOSSOS DESTAQUES</h3>
+			<h2 class="sub">TORTA DE SORVETE DE IOGURTE COM DAMASCO</h2>
+			<p class="desc">aro 22cm | R$200,00</p>
+			<h2 class="sub">TORTA DE CHOCOLATE BELGA AO LEITEE DOC CALLEBAUT</h2>
+			<p class="desc">aro 22cm | R$260,00</p>
+			<h2 class="sub">TORTA DE SORVETE DE IOGURTE COM RABANADAS E FRUTAS SECAS</h2>
+			<p class="desc">aro 22cm | R$200,00</p>
+			<h2 class="sub">GALETTE DE BACALHAU COM AZEITE ESTRA VIRGEM E AZEITONAS</h2>
+			<p class="desc">aro 25cm |R$260,00</p>
+		</div>
+		<div class="card">
+			<h1 class="title">Cardápio especial de ano novo</h1>
+			<img src="img/Ano.png" alt="" class="img-bunner">
+			<h3 class="sub-title">CONHEÇA NOSSOS DESTAQUES</h3>
+			<h2 class="sub">TORTA ALEMÃ (aro 25cm)</h2>
+			<p class="desc">R$ 120</p>
+			<h2 class="sub">TORTA SORVETE DE IOGURTE E RABANADA (aro 22cm)</h2>
+			<p class="desc">R$ 185</p>
+			<h2 class="sub">BOLO DE NATAL COM CHOCOLATE BELGA</h2>
+			<p class="desc">R$ 140</p>
+			<h2 class="sub">TORTA DE BACALHAU (aro 25cm)</h2>
+			<p class="desc">R$ 165</p>
+		</div>
+		<div class="card">
+			<h1 class="title">Cardápio especial de Páscoa</h1>
+			<img src="img/Pascoa.png" alt="" class="img-bunner">
+			<h3 class="sub-title">CONHEÇA NOSSAS TORTAS ESPECIAIS</h3>
+			<h2 class="sub">GALETTE DE BACALHAU (aro 25cm)</h2>
+			<p class="desc">com azeitonas pretas e tomatinhos cereja |R$200,00</p>
+			<h2 class="sub">TORTA SORVETE BELGA (aro 22cm)</h2>
+			<p class="desc">R$140,00</p>
+			<h2 class="sub">TORTA MOUSSE 2 CHOCOLATES (aro 22cm)</h2>
+			<p class="desc">elaborada com 2 chocolates belga de origem |R$200,00</p>
+			<h2 class="sub">TORTA SORVETE DE IOGURTE (aro 22cm)</h2>
+			<p class="desc">torta sorvete de iogurte com damasco |R$ 180,00</p>
+		</div>
+		<div class="card">
+			<h1 class="title">Cardápio especial dia dos Namorados</h1>
+			<img src="img/Namorados.png" alt="" class="img-bunner">
+			<h3 class="sub-title">CONHEÇA NOSSOS DESTAQUES</h3>
+			<h2 class="sub">CARPACCIO DE FILÉ MIGNON COM RÚCULA E LASCAS DE PARMESÃO</h2>
+			<p class="desc">r$145,00</p>
+			<h2 class="sub">RISOTO DE CAMARÃO AO MOLHO DE CHAMPANHE</h2>
+			<p class="desc">r$160,00</p>
+			<h2 class="sub">PETIT GATEAU DE CHOCOLATE BELGA COM SORVETE DE BAUNILHA</h2>
+			<p class="desc">r$90,00</p>
+			<h2 class="sub">TIRAMISU CLÁSSICO COM CAFÉ ESPRESSO</h2>
+			<p class="desc">50,00</p>
+			<h2 class="sub">VINHO TINTI CABERNET SAUVIGNON RESERVA</h2>
+			<p class="desc">R$160,00</p>
+		</div>
+	</section>
+	<section class="galeria" id="galeria"><!-- Galeria -->
+		
+	</section>
+	<!-- Footer -->
+	<footer>
+		<div class="footer-container">
+			<div class="footer-content">
+				<div class="footer-logo">
+					<img src="assets/LogoB.png">
+				</div>
+				
+				<div class="footer-social">
+					<a href="#"><i class="ri-facebook-fill"></i></a>
+					<a href="#"><i class="ri-instagram-line"></i></a>
+					<a href="#"><i class="ri-twitter-x-line"></i></a>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<p>&copy; 2024 Developed by Amanda Silva |AS, All rights reserved <a href="https://github.com/SilvaLimaAmanda1" target="_blank" rel="noopener noopener">Amanda Silva |AS</a> 
+				Todos os direitos reservados.</p>
+			</div>
+		</div>
+	</footer>
+<script src="script.js"></script>	
+</body>
+</html>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Bricolage Grotesque", sans-serif;
+}
+
+body {
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 20px 14px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: dodgerblue; /*color: dodgerblue*/
+	z-index: 1000;
+	box-shadow: 5px 5px 15px #807A7A;
+}
+
+.logo img {
+	max-width: 200px;
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+}
+
+.menulist {
+	list-style: none;
+	display: flex;
+}
+
+.menulist li {
+	margin: 0 10px;
+}
+
+.menulist a {
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+}
+.menulist a:hover{
+	text-decoration: underline;
+	color: deeppink;
+}
+.menu-right {
+	display: flex;
+	align-items: center;
+}
+
+.menu-right a {
+	margin-left: 20px;
+	color: #333;
+	font-size: 24px;
+}
+
+.menu-right a:hover{
+	color: white;
+}
+
+.content {
+	display: flex;
+	height: 100vh;
+	margin-top: 300px;
+}
+
+.left {
+	width: 50%;
+	margin-top: 370px;
+	background-color: white;
+}
+
+.left h3{
+	font-size: 16px;
+	color: black;
+}
+
+.left h1{
+	font-size: 22px;
+	color: dodgerblue;
+	filter: drop-shadow(5px 5px deeppink);
+}
+
+.left a{
+	display: inline-block;
+	color: white;
+	background-color: black;
+	border: 1px solid transparent;
+	padding: 12px 30px;
+	line-height: 1.4;
+	font-size: 14px;
+	font-weight: 500;
+	border-radius: 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 55s ease;
+}
+
+.left a:hover{
+	background: dodgerblue;
+	border: 1px solid deeppink;
+	transform: translateX(8px);
+}
+
+.left a.ctaa{
+	background: black;
+	border: 1px solid white;
+	margin-left: 20px;
+}
+
+.right {
+	width: 50%;
+	background-color: pink;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.cupcake-img {
+	position: absolute;
+	width: 500px;
+	height: auto;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.section{
+	padding: 10px 10px;
+}
+/*Sobre*/
+.sobre{
+	background-color: hotpink;
+	padding: 90px 85px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 40px;
+}
+.sobre .text-box{
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+.sobre .text-box h3{
+	margin-top: 10px;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
+.sobre .text-box p{
+	padding: 10px;
+	font-size: 16px;
+	color: floralwhite;
+}
+/*Sobre final*/
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: dodgerblue;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    color: white;
+}
+
+.card img.img-bunner {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+    border-bottom: 2px solid deeppink;
+    padding-bottom: 5px;
+}
+
+.sub {
+    font-size: 16px;
+    color: deeppink;
+    margin: 10px 0;
+}
+
+.desc {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/*Footer*/
+footer {
+	background-color: hotpink;
+	color: white;
+	padding: 40px 0;
+	text-align: center;
+	position: relative;
+}
+
+.footer-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.footer-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.footer-logo img {
+	width: 150px;
+	margin-bottom: 20px;
+}
+.footer-social {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.footer-social a {
+	margin: 0 10px;
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	transition: transform 0.5s infinite alternate;
+}
+.footer-social a:hover{
+	color: #1e90ff;
+}
+.footer-bottom {
+	margin-top: 20px;
+}
+
+.footer-bottom p {
+	font-size: 14px;
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        width: 90%;
+    }
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: dodgerblue;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: hotpink;
+}
+
+<div class="gallery-images">
+            <img src="img/Classicos.jpg" alt="Imagem da galeria 1">
+            <img src="img/Cheesecake.jpg" alt="Imagem da galeria 2">
+            <img src="img/Copo da Felicidade.jpg" alt="Imagem da galeria 3">
+            <img src="img/Biscoitos.webp" alt="Imagem da galeria 4">
+        </div>
